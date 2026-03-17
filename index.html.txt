@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fundação Mochila da Esperança</title>
+
+<style>
+body{
+font-family:Arial;
+margin:0;
+background:#f4f6f8;
+text-align:center;
+}
+
+.hero{
+background:#1d4ed8;
+color:white;
+padding:80px 20px;
+}
+
+.btn{
+background:#fbbf24;
+padding:15px 30px;
+border-radius:10px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.section{
+padding:60px 20px;
+}
+
+.card{
+background:white;
+padding:30px;
+margin:20px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+button{
+background:#16a34a;
+color:white;
+padding:15px 20px;
+border:none;
+border-radius:8px;
+font-size:18px;
+margin:10px;
+}
+
+footer{
+background:#111;
+color:#ccc;
+padding:30px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<h1>Fundação Mochila da Esperança</h1>
+<p>Ajudando 10.000 crianças em Nampula com material escolar.</p>
+<a class="btn" href="#doar">Apoiar uma Criança</a>
+</div>
+
+<div class="section">
+<h2>Nosso Impacto</h2>
+
+<div class="card">
+<h2>10.000</h2>
+<p>Crianças</p>
+</div>
+
+<div class="card">
+<h2>Nampula</h2>
+<p>Moçambique</p>
+</div>
+
+<div class="card">
+<h2>Educação</h2>
+<p>Kits escolares</p>
+</div>
+
+</div>
+
+<div class="section" id="doar">
+<h2>Faça uma Doação</h2>
+
+<button onclick="doar(100)">Doar 100 MT</button>
+<button onclick="doar(500)">Doar 500 MT</button>
+<button onclick="doar(1000)">Doar 1000 MT</button>
+
+</div>
+
+<footer>
+<p>Fundação Mochila da Esperança</p>
+<p>Nampula • Moçambique</p>
+</footer>
+
+<script>
+function doar(valor){
+alert("Obrigado por apoiar com " + valor + " MT");
+}
+</script>
+
+</body>
+</html>
